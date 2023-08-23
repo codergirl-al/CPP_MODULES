@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 16:35:13 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/22 17:41:35 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/08/23 12:57:34 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
         std::string current = argv[i];
         int length = current.length();
         for (int j = 0; j < length; j++)
-            std::cout << static_cast<char>(std::toupper(static_cast<unsigned char>(current[j])));
+            std::cout << (char)std::toupper(current[j]);
         std::cout << " ";
     }
     std::cout << std::endl;

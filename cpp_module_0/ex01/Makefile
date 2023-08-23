@@ -6,23 +6,23 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/22 17:43:23 by apeposhi          #+#    #+#              #
-#    Updated: 2023/08/22 17:43:24 by apeposhi         ###   ########.fr        #
+#    Updated: 2023/08/23 13:00:22 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Metadata
 AUTHOR    := apeposhi
-NAME      := megaphone
+NAME      := main
 
 # Sources & Objects
-SRC       := megaphone.cpp
+SRC       := main.cpp Contact.cpp Phonebook.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
 CXX       := clang++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
-EXEC      := megaphone
+EXEC      := main
 
 # Suffix Rules
 .cpp.o:

@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:07:24 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/22 18:54:36 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/08/23 19:00:46 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ public:
 	Contact();
 	~Contact();
 	
-	void create_contact(std::string first_name, std::string last_name, std::string nickname, std::string phone_number, std::string darkest_secret);
+	void assign_contact_data(std::string first_name, std::string last_name, std::string nickname, std::string phone_number, std::string darkest_secret);
 	void print_contact(void) const;
 	
 	std::string get_first_name() const;
