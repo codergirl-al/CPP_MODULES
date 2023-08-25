@@ -6,30 +6,31 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:01:53 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/23 18:56:14 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/08/25 17:44:01 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHONEBOOK_HPP
-# define PHONEBOOK_HPP
+#define PHONEBOOK_HPP
 
-# include "main.hpp"
+#include "main.hpp"
 
 class Phonebook {
 private:
+	int index;
 	Contact phonebook[8];
 public:
 	Phonebook();
-	
-	void startup();
-	void create_contact(int index, std::string first_name, std::string last_name, std::string nickname, std::string phone_number, std::string darkest_secret);
-	Contact get_contact(int index);
 
-	std::string get_first_name(int index);
-	std::string get_last_name(int index);
-	std::string get_nickname(int index);
-	std::string get_phone_number(int index);
-	std::string get_darkest_secret(int index);
+	void startup();
+	void add();
+	Contact getContact(int index);
+
+	std::string getfirstName(int index);
+	std::string getlastName(int index);
+	std::string getNickname(int index);
+	std::string getPhoneNumber(int index);
+	std::string getDarkestSecret(int index);
 	~Phonebook();
 };
 
