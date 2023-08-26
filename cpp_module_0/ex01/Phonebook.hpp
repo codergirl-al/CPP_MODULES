@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   phonebook.hpp                                      :+:      :+:    :+:   */
+/*   Phonebook.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:01:53 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/25 17:44:01 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/08/26 22:33:27 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ public:
 	void add();
 	Contact getContact(int index);
 
-	std::string getfirstName(int index);
+BEST	std::string getfirstName(int index);
 	std::string getlastName(int index);
 	std::string getNickname(int index);
 	std::string getPhoneNumber(int index);
