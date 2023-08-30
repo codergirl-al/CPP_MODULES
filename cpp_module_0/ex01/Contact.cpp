@@ -6,11 +6,11 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:12:26 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/25 17:40:33 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/08/26 14:03:26 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "main.hpp"
+#include "Contact.hpp"
 
 Contact::Contact() {}
 
@@ -40,11 +40,11 @@ void Contact::setParameter(const std::string param, const std::string input) {
     }
 }
 
-std::string Contact::getfirstName() const {
+std::string Contact::getFirstName() const {
 	return firstName;
 }
 
-std::string Contact::getlastName() const {
+std::string Contact::getLastName() const {
 	return lastName;
 }
 
