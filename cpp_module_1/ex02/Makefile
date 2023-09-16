@@ -6,7 +6,7 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/14 15:24:33 by apeposhi          #+#    #+#              #
-#    Updated: 2023/09/15 11:27:21 by apeposhi         ###   ########.fr        #
+#    Updated: 2023/09/16 20:20:59 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ SRC       := main.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
-CXX       := g++
+CXX       := clang
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
 EXEC      := brain
