@@ -12,7 +12,7 @@
 
 # Metadata
 AUTHOR    := apeposhi
-NAME      := brain
+NAME      := fight
 
 # Sources & Objects
 SRC       := main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
@@ -22,7 +22,7 @@ OBJS      := $(SRC:.cpp=.o)
 CXX       := g++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
-EXEC      := brain
+EXEC      := fight
 
 # Suffix Rules
 .cpp.o:
