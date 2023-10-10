@@ -6,13 +6,13 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/17 22:42:12 by apeposhi          #+#    #+#              #
-#    Updated: 2023/09/17 22:42:21 by apeposhi         ###   ########.fr        #
+#    Updated: 2023/10/10 23:17:43 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Metadata
 AUTHOR    := apeposhi
-NAME      := fight
+NAME      := replaceAndSave
 
 # Sources & Objects
 SRC       := main.cpp
@@ -22,7 +22,7 @@ OBJS      := $(SRC:.cpp=.o)
 CXX       := g++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
-EXEC      := fight
+EXEC      := replaceAndSave
 
 # Suffix Rules
 .cpp.o:
