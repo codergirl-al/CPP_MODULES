@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/09/16 20:21:04 by apeposhi          #+#    #+#              #
-#    Updated: 2023/09/17 22:41:58 by apeposhi         ###   ########.fr        #
+#    Created: 2023/09/17 22:42:12 by apeposhi          #+#    #+#              #
+#    Updated: 2023/09/17 22:42:21 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,11 +15,11 @@ AUTHOR    := apeposhi
 NAME      := fight
 
 # Sources & Objects
-SRC       := main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
+SRC       := main.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
-CXX       := clang
+CXX       := g++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
 EXEC      := fight
