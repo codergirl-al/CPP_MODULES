@@ -1,27 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/11 00:22:07 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/10/11 16:57:27 by apeposhi         ###   ########.fr       */
+/*   Created: 2023/10/11 16:56:51 by apeposhi          #+#    #+#             */
+/*   Updated: 2023/10/11 16:57:59 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"
+#ifndef HARL_HPP
+#define HARL_HPP
 
-int main() {
-	Harl harl;
-	
-	harl.complain("DEBUG");
-	harl.complain("INFO");
-	harl.complain("WARNING");
-	harl.complain("ERROR");
-	harl.complain("INVALID_TEST");
-	harl.complain("");
-	harl.complain("420");
+#include <iostream>
 
-	return (0);
-}
+class Harl {
+public:
+	void complain(const std::string& level);
+private:
+	void debug(void);
+	void info(void);
+	void warning(void);
+	void error(void);
+};
+
+#endif

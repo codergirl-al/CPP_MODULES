@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 00:17:58 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/10/11 16:43:33 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/10/11 16:57:49 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #define HARL_HPP
 
 #include <iostream>
-#include <map>
 
 class Harl {
 public:

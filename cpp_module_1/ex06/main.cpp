@@ -5,23 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/11 00:22:07 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/10/11 16:57:27 by apeposhi         ###   ########.fr       */
+/*   Created: 2023/10/11 16:57:00 by apeposhi          #+#    #+#             */
+/*   Updated: 2023/10/11 16:57:18 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"
-
-int main() {
-	Harl harl;
-	
-	harl.complain("DEBUG");
-	harl.complain("INFO");
-	harl.complain("WARNING");
-	harl.complain("ERROR");
-	harl.complain("INVALID_TEST");
-	harl.complain("");
-	harl.complain("420");
-
+int main(int argc, char *argv[])
+{
 	return (0);
 }
