@@ -16,20 +16,16 @@ void Harl::error() {
 	std::cout << "This is unacceptable! I want to speak to the manager now." << std::endl;
 }
 
-void Harl::complain(std::string level) {
-	void (Harl::*func)() = nullptr;
+void Harl::complain(const std::string& level) {
+    void (Harl::*functions[4])() = { &Harl::debug, &Harl::info, &Harl::warning, &Harl::error };
+    const char* levels[4] = { "DEBUG", "INFO", "WARNING", "ERROR" };
+    
+    for(int i = 0; i < 4; ++i) {
+        if(level == levels[i]) {
+            (this->*functions[i])();
+            return;
+        }
+    }
 
-	if (level == "DEBUG")
-		func = &Harl::debug;
-	else if (level == "INFO")
-		func = &Harl::info;
-	else if (level == "WARNING")
-		func = &Harl::warning;
-	else if (level == "ERROR")
-		func = &Harl::error;
-	
-	if (func)
-		(this->*func)();
-	else
-		std::cout << "INVALID LEVEL: Harl doesn't understand the requested complaint level." << std::endl;
+    std::cout << "INVALID LEVEL: Harl doesn't understand the requested complaint level." << std::endl;
 }
