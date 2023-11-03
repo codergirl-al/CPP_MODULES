@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 16:56:51 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/10/11 16:57:59 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/10/22 22:17:05 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,13 @@
 
 class Harl {
 public:
-	void complain(const std::string& level);
+    void complain(const std::string& level);
+
 private:
-	void debug(void);
-	void info(void);
-	void warning(void);
-	void error(void);
+    void debug();
+    void info();
+    void warning();
+    void error();
 };
 
 #endif
