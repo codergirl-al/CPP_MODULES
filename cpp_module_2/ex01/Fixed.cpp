@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 01:49:52 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/12/16 15:24:09 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/12/16 19:17:12 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,6 @@ FixedPoint::FixedPoint(float floatingPart) : value(static_cast<int>(round(floati
 FixedPoint::FixedPoint(const FixedPoint &other) : value(other.value) {
 	std::cout << "Copy constructor called" << std::endl;
 }
-
-// FixedPoint& FixedPoint::operator=(const FixedPoint &other) {
-//     if (this != &other) {
-//         this->value = other.value;
-//         std::cout << "Copy assignment operator called" << std::endl;
-//     }
-//     return *this;
-// }
 
 FixedPoint::~FixedPoint() {
 	std::cout << "Destructor called" << std::endl;

@@ -5,24 +5,24 @@
 #                                                     +:+ +:+         +:+      #
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/12/16 01:48:54 by apeposhi          #+#    #+#              #
-#    Updated: 2023/12/16 19:15:46 by apeposhi         ###   ########.fr        #
+#    Created: 2024/01/18 04:41:05 by apeposhi          #+#    #+#              #
+#    Updated: 2024/01/18 05:04:56 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Metadata
 AUTHOR    := apeposhi
-NAME      := fixedpoint
+NAME      := claptrap
 
 # Sources & Objects
-SRC       := main.cpp Fixed.cpp
+SRC       := main.cpp ClapTrap.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
 CXX       := g++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
-EXEC      := fixedpoint
+EXEC      := claptrap
 
 # Suffix Rules
 .cpp.o:

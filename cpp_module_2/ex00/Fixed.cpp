@@ -6,11 +6,12 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 00:03:36 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/12/16 01:01:48 by apeposhi         ###   ########.fr       */
+/*   Updated: 2023/12/16 02:29:12 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
+
 #include <iostream>
 
 FixedPoint::FixedPoint() : value(0) {

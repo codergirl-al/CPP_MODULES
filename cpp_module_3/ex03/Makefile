@@ -5,24 +5,24 @@
 #                                                     +:+ +:+         +:+      #
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/12/16 01:48:54 by apeposhi          #+#    #+#              #
-#    Updated: 2023/12/16 19:15:46 by apeposhi         ###   ########.fr        #
+#    Created: 2024/01/18 05:11:32 by apeposhi          #+#    #+#              #
+#    Updated: 2024/01/22 01:03:42 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Metadata
 AUTHOR    := apeposhi
-NAME      := fixedpoint
+NAME      := diamondtrap
 
 # Sources & Objects
-SRC       := main.cpp Fixed.cpp
+SRC       := main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
 CXX       := g++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
-EXEC      := fixedpoint
+EXEC      := diamondtrap
 
 # Suffix Rules
 .cpp.o:

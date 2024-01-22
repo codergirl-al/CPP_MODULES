@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/12/16 01:48:54 by apeposhi          #+#    #+#              #
-#    Updated: 2023/12/16 19:15:46 by apeposhi         ###   ########.fr        #
+#    Created: 2023/12/24 18:16:24 by apeposhi          #+#    #+#              #
+#    Updated: 2023/12/26 22:34:43 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,13 +14,16 @@
 AUTHOR    := apeposhi
 NAME      := fixedpoint
 
+# Directories
+EX02_DIR  := ../ex02
+
 # Sources & Objects
-SRC       := main.cpp Fixed.cpp
+SRC       := main.cpp Point.cpp $(EX02_DIR)/Fixed.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
 CXX       := g++
-CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
+CXXFLAGS  := -Wall -Wextra -Werror -std=c++98 -I$(EX02_DIR)
 EXE_FLAG  := -o
 EXEC      := fixedpoint
 
