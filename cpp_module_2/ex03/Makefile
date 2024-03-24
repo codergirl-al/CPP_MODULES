@@ -6,7 +6,7 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/24 18:16:24 by apeposhi          #+#    #+#              #
-#    Updated: 2023/12/26 22:34:43 by apeposhi         ###   ########.fr        #
+#    Updated: 2024/03/24 19:39:15 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ SRC       := main.cpp Point.cpp $(EX02_DIR)/Fixed.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
-CXX       := g++
+CXX       := c++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98 -I$(EX02_DIR)
 EXE_FLAG  := -o
 EXEC      := fixedpoint

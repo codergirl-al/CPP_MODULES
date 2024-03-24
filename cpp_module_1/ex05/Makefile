@@ -6,7 +6,7 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/11 00:24:03 by apeposhi          #+#    #+#              #
-#    Updated: 2023/10/11 00:24:47 by apeposhi         ###   ########.fr        #
+#    Updated: 2024/03/24 19:38:46 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ SRC       := main.cpp Harl.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
-CXX       := g++
+CXX       := c++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
 EXEC      := harl_complaints

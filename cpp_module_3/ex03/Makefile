@@ -6,7 +6,7 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/18 05:11:32 by apeposhi          #+#    #+#              #
-#    Updated: 2024/01/22 01:03:42 by apeposhi         ###   ########.fr        #
+#    Updated: 2024/03/24 19:39:56 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ SRC       := main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 OBJS      := $(SRC:.cpp=.o)
 
 # Compiler and Flags
-CXX       := g++
+CXX       := c++
 CXXFLAGS  := -Wall -Wextra -Werror -std=c++98
 EXE_FLAG  := -o
 EXEC      := diamondtrap
