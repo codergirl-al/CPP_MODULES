@@ -6,33 +6,13 @@
 #    By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/22 04:36:29 by apeposhi          #+#    #+#              #
-#    Updated: 2024/03/24 19:47:52 by apeposhi         ###   ########.fr        #
+#    Updated: 2024/03/24 19:49:20 by apeposhi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Metadata
 AUTHOR    := apeposhi
-NAME      := animals#ifndef AMATERIA_HPP
-#define AMATERIA_HPP
-
-#include <string>
-#include "ICharacter.hpp"
-
-class AMateria {
-protected:
-    std::string _type;
-
-public:
-    AMateria(std::string const &type);
-    virtual ~AMateria();
-
-    std::string const &getType() const; 
-    virtual AMateria* clone() const = 0;
-    virtual void use(ICharacter& target);
-};
-
-#endif
-
+NAME      := animals
 
 # Sources & Objects
 SRC       := main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
