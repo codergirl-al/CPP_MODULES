@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/22 05:12:01 by apeposhi          #+#    #+#             */
-/*   Updated: 2024/01/22 05:39:56 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/06/06 15:03:35 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@
 
 class MateriaSource : public IMateriaSource {
 private:
-    static const int maxMateria = 4;
-    AMateria* materias[maxMateria];
+    static const int _maxMateria = 4;
+    AMateria* _materias[_maxMateria];
 
     void clearMaterias();
 

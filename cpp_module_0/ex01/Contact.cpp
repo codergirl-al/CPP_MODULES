@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:12:26 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/26 14:03:26 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/14 14:58:25 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ Contact::Contact() {}
 
 Contact::~Contact() {}
 
-void Contact::print_contact(void) const {
+void Contact::printContact(void) const {
 	std::cout << "First name: " << this->firstName << std::endl;
 	std::cout << "Last name: " << this->lastName << std::endl;
 	std::cout << "Nickname: " << this->nickname << std::endl;

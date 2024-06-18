@@ -1,4 +1,4 @@
-\#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include <cstdlib> // for system()
@@ -64,7 +64,7 @@ int main() {
     // Test 5: s1 is a special character
     if (!testReplacement("test5_input.txt", "$", "Dollar", "test5_expected_output.txt")) {
         allTestsPassed = false;
-    }P
+    }
 
     // Test 6: s1 and s2 are numbers
     if (!testReplacement("test6_input.txt", "123", "OneTwoThree", "test6_expected_output.txt")) {

@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:07:24 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/27 12:10:31 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/14 14:58:11 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ public:
 	Contact();
 	~Contact();
 	
-	void print_contact(void) const;
+	void printContact(void) const;
 	void setParameter(std::string param, std::string input);
 
 	std::string getFirstName() const;

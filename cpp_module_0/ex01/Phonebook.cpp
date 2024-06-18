@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:03:24 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/26 17:08:08 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/14 15:00:15 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,20 +60,17 @@ std::string Phonebook::getUserInput() {
 
     do {
         std::getline(std::cin, input);
-
-        if (input.empty()) {
+        if (input.empty())
             std::cout << "Input cannot be empty! Try again." << std::endl;
-        }
     } while (input.empty());
 
-    return input;
+    return (input);
 }
 
 std::string Phonebook::parseContent(std::string text) {
-    if (text.length() > 10) {
+    if (text.length() > 10)
         return text.substr(0, 9) + ".";
-    }
-    return text;
+    return (text);
 }
 
 void Phonebook::displayContact(int index) {
@@ -91,17 +88,13 @@ int Phonebook::getContactByIndex() {
     do {
         std::getline(std::cin, input);
 		index = std::stoi(input);
-		
 		if (phonebook[index].getFirstName() == "")
 			isValid = 1;
-
-        if (!isValid) {
+        if (!isValid)
             std::cout << "Wrong index. Try again.\n";
-        }
-
     } while (!isValid);
 
-    return index;
+    return (index);
 }
 
 void Phonebook::search() {
@@ -114,15 +107,13 @@ void Phonebook::search() {
     }
 
     for (int i = 0; i < 8; i++) {
-        if (!phonebook[i].getFirstName().empty()) {
+        if (!phonebook[i].getFirstName().empty())
             displayContact(i);
-        }
     }
     std::cout << "\nEnter the contact's index: \n";
     index = getContactByIndex();
-    if (index >= 0 && index < 8) {
+    if (index >= 0 && index < 8)
         getContact(index-1);
-    } else {
+    else
         std::cout << "Invalid index.\n";
-    }
 }

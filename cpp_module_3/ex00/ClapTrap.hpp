@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/18 04:40:57 by apeposhi          #+#    #+#             */
-/*   Updated: 2024/01/22 03:17:42 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/30 14:08:26 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ protected:
 
 public:
     ClapTrap(std::string name);
-    virtual ~ClapTrap();
+    ClapTrap(const ClapTrap &other);
+    ClapTrap& operator=(const ClapTrap &other);
+    ~ClapTrap();
 
     void attack(std::string const& target);
     void takeDamage(unsigned int amount);

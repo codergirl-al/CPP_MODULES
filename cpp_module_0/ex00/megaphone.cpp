@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 16:35:13 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/23 12:57:34 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/13 18:22:46 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int main(int argc, char* argv[]) {
     if (argc == 1) {
         std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *" << std::endl;
-        return 0;
+        return (0);
     }
 
     for (int i = 1; i < argc; ++i) {
@@ -26,5 +26,5 @@ int main(int argc, char* argv[]) {
         std::cout << " ";
     }
     std::cout << std::endl;
-    return 0;
+    return (0);
 }

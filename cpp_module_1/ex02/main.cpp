@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/14 15:27:54 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/09/15 11:36:39 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/23 15:17:58 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int main() {
 
 	// Print memory addresses
 	std::cout << "The memory address of the string variable: " << &str << std::endl;
-	std::cout << "The memory address held by stringPTR: " << &str << std::endl;
-	std::cout << "The memory address of the string variable: " << &str << std::endl;
+	std::cout << "The memory address held by stringPTR: " << &stringPTR << std::endl;
+	std::cout << "The memory address of the string variable: " << &stringREF << std::endl;
 
 	// Values
 	std::cout << "String value: " << str << std::endl;

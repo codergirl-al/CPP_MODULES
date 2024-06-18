@@ -6,11 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:01:53 by apeposhi          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2023/08/26 22:33:27 by apeposhi         ###   ########.fr       */
-=======
-/*   Updated: 2023/08/26 16:52:29 by apeposhi         ###   ########.fr       */
->>>>>>> 1779eaa330a32a10ab29840a0f9006fc99ffb294
+/*   Updated: 2024/04/14 14:56:48 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,14 +31,11 @@ public:
 	int getContactByIndex();
 	void getContact(int index);
 
-<<<<<<< HEAD
-BEST	std::string getfirstName(int index);
+	std::string getfirstName(int index);
 	std::string getlastName(int index);
 	std::string getNickname(int index);
 	std::string getPhoneNumber(int index);
 	std::string getDarkestSecret(int index);
-=======
->>>>>>> 1779eaa330a32a10ab29840a0f9006fc99ffb294
 	~Phonebook();
 };
 

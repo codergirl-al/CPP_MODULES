@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 16:56:56 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/10/29 00:45:12 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/24 19:38:13 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void Harl::error() {
 void Harl::complain(const std::string& level) {
     int levelInt;
 
-    if (level == "DEBUG") levelInt = 1;5
+    if (level == "DEBUG") levelInt = 1;
     else if (level == "INFO") levelInt = 2;
     else if (level == "WARNING") levelInt = 3;
     else if (level == "ERROR") levelInt = 4;

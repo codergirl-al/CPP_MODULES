@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 14:12:21 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/09/12 11:00:06 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/22 17:06:17 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ Zombie::~Zombie() {
 
 void Zombie::announce(void) {   
     std::cout << name << ": BraiiiiiiinnnzzzZ..." << std::endl;
-    
+}
 
 Zombie* newZombie(std::string name) {
     return new Zombie(name);

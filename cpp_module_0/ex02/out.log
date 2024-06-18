@@ -1,0 +1,43 @@
+[20240414_182437] Accounts: 8; Total: 20049; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 0; Amount: 42; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 1; Amount: 54; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 2; Amount: 957; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 3; Amount: 432; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 4; Amount: 1234; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 5; Amount: 0; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 6; Amount: 754; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 7; Amount: 16576; Deposits:0; Withdrawals: 0
+[20240414_182437] Index: 0; P_amount: 42; Deposit: 5; Amount:47; Nb_deposits:1
+[20240414_182437] Index: 1; P_amount: 54; Deposit: 765; Amount:819; Nb_deposits:1
+[20240414_182437] Index: 2; P_amount: 957; Deposit: 564; Amount:1521; Nb_deposits:1
+[20240414_182437] Index: 3; P_amount: 432; Deposit: 2; Amount:434; Nb_deposits:1
+[20240414_182437] Index: 4; P_amount: 1234; Deposit: 87; Amount:1321; Nb_deposits:1
+[20240414_182437] Index: 5; P_amount: 0; Deposit: 23; Amount:23; Nb_deposits:1
+[20240414_182437] Index: 6; P_amount: 754; Deposit: 9; Amount:763; Nb_deposits:1
+[20240414_182437] Index: 7; P_amount: 16576; Deposit: 20; Amount:16596; Nb_deposits:1
+[20240414_182437] Accounts: 8; Total: 21524; Deposits:8; Withdrawals: 0
+[20240414_182437] Index: 0; Amount: 47; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 1; Amount: 819; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 2; Amount: 1521; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 3; Amount: 434; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 4; Amount: 1321; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 5; Amount: 23; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 6; Amount: 763; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 7; Amount: 16596; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 0; P_amount: 47; Withdrawal : Refused
+[20240414_182437] Index: 1; P_amount: 819; Withdrawal: 34; Amount: 785; Nb_withdrawals: 1
+[20240414_182437] Index: 2; P_amount: 1521; Withdrawal: 657; Amount: 864; Nb_withdrawals: 1
+[20240414_182437] Index: 3; P_amount: 434; Withdrawal: 4; Amount: 430; Nb_withdrawals: 1
+[20240414_182437] Index: 4; P_amount: 1321; Withdrawal: 76; Amount: 1245; Nb_withdrawals: 1
+[20240414_182437] Index: 5; P_amount: 23; Withdrawal : Refused
+[20240414_182437] Index: 6; P_amount: 763; Withdrawal: 657; Amount: 106; Nb_withdrawals: 1
+[20240414_182437] Index: 7; P_amount: 16596; Withdrawal: 7654; Amount: 8942; Nb_withdrawals: 1
+[20240414_182437] Accounts: 8; Total: 12442; Deposits:8; Withdrawals: 6
+[20240414_182437] Index: 0; Amount: 47; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 1; Amount: 785; Deposits:1; Withdrawals: 1
+[20240414_182437] Index: 2; Amount: 864; Deposits:1; Withdrawals: 1
+[20240414_182437] Index: 3; Amount: 430; Deposits:1; Withdrawals: 1
+[20240414_182437] Index: 4; Amount: 1245; Deposits:1; Withdrawals: 1
+[20240414_182437] Index: 5; Amount: 23; Deposits:1; Withdrawals: 0
+[20240414_182437] Index: 6; Amount: 106; Deposits:1; Withdrawals: 1
+[20240414_182437] Index: 7; Amount: 8942; Deposits:1; Withdrawals: 1

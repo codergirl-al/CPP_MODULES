@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/16 20:20:13 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/09/17 22:25:44 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/24 14:26:15 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ public:
     Weapon(const std::string& type);
     const std::string& getType() const;
     void setType(const std::string& newType);
+    ~Weapon():
 };
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: apeposhi <apeposhi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/22 18:00:53 by apeposhi          #+#    #+#             */
-/*   Updated: 2023/08/26 14:52:57 by apeposhi         ###   ########.fr       */
+/*   Updated: 2024/04/14 15:09:38 by apeposhi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ int main() {
 			exit(0);
 		phonebook.startup();
 	}
-	return 0;
+	return (0);
 }
